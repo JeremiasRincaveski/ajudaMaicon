@@ -11,7 +11,7 @@ import { BsSun, BsMoonFill } from "react-icons/bs";
 import { Contact } from "./components/contact/Contact"
 import { Footer } from "./components/footer/Footer"
 
-export const Index = () => {
+export const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [toggleTheme, setToggleTheme] = useState(theme);
   const startOfPageRef   = useRef(null);
